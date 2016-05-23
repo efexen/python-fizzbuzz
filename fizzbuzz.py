@@ -10,7 +10,7 @@ class FizzBuzz():
             yield self.value_for(start)
             start += 1
 
-    def value_for(self, number, ):
+    def value_for(self, number):
         value = ''
 
         for divisor, outcome in self.rules.iteritems():
